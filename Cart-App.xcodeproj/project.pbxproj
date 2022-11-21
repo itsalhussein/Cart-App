@@ -8,47 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		19ED9B03292A089E00773F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B02292A089E00773F09 /* AppDelegate.swift */; };
-		19ED9B05292A089E00773F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B04292A089E00773F09 /* SceneDelegate.swift */; };
-		19ED9B07292A089E00773F09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B06292A089E00773F09 /* ViewController.swift */; };
-		19ED9B0A292A089E00773F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B08292A089E00773F09 /* Main.storyboard */; };
 		19ED9B0C292A08A200773F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B0B292A08A200773F09 /* Assets.xcassets */; };
 		19ED9B0F292A08A200773F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B0D292A08A200773F09 /* LaunchScreen.storyboard */; };
-		19ED9B1A292A08A200773F09 /* Cart_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B19292A08A200773F09 /* Cart_AppTests.swift */; };
-		19ED9B24292A08A200773F09 /* Cart_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B23292A08A200773F09 /* Cart_AppUITests.swift */; };
-		19ED9B26292A08A200773F09 /* Cart_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B25292A08A200773F09 /* Cart_AppUITestsLaunchTests.swift */; };
+		19ED9B37292A0E8C00773F09 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B35292A0E8C00773F09 /* ProductsViewController.swift */; };
+		19ED9B38292A0E8C00773F09 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B36292A0E8C00773F09 /* ProductsViewController.xib */; };
+		19ED9B45292AAE5400773F09 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B44292AAE5300773F09 /* ProductsViewModel.swift */; };
+		19ED9B49292AAFEA00773F09 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B47292AAFEA00773F09 /* ProductCell.swift */; };
+		19ED9B4A292AAFEA00773F09 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B48292AAFEA00773F09 /* ProductCell.xib */; };
+		19ED9B4C292AB03000773F09 /* UITableViewCell+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B4B292AB03000773F09 /* UITableViewCell+Ex.swift */; };
+		19ED9B4E292AB0F500773F09 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B4D292AB0F500773F09 /* ProductModel.swift */; };
+		19ED9B50292AB90800773F09 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B4F292AB90800773F09 /* ShadowView.swift */; };
+		19ED9B52292ABBFA00773F09 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B51292ABBFA00773F09 /* Navigator.swift */; };
+		19ED9B54292ABC1400773F09 /* Destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B53292ABC1400773F09 /* Destinations.swift */; };
+		19ED9B57292AC43600773F09 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B55292AC43600773F09 /* CartViewController.swift */; };
+		19ED9B58292AC43600773F09 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B56292AC43600773F09 /* CartViewController.xib */; };
+		19ED9B5A292AC4A400773F09 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B59292AC4A400773F09 /* CartViewModel.swift */; };
+		19ED9B5C292AC52200773F09 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B5B292AC52200773F09 /* DBHelper.swift */; };
+		19ED9B60292ACD8200773F09 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B5E292ACD8200773F09 /* CartCell.swift */; };
+		19ED9B61292ACD8200773F09 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19ED9B5F292ACD8200773F09 /* CartCell.xib */; };
+		19ED9B64292AF20100773F09 /* UserDefaultsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED9B63292AF20000773F09 /* UserDefaultsConstants.swift */; };
+		93A3F4DD74466B49A983AB21 /* Pods_Cart_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E13C9810F68421F20993BE9 /* Pods_Cart_App.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		19ED9B16292A08A200773F09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 19ED9AF7292A089E00773F09 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19ED9AFE292A089E00773F09;
-			remoteInfo = "Cart-App";
-		};
-		19ED9B20292A08A200773F09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 19ED9AF7292A089E00773F09 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19ED9AFE292A089E00773F09;
-			remoteInfo = "Cart-App";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		19ED9AFF292A089E00773F09 /* Cart-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cart-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ED9B02292A089E00773F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19ED9B04292A089E00773F09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19ED9B06292A089E00773F09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19ED9B09292A089E00773F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19ED9B0B292A08A200773F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19ED9B0E292A08A200773F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19ED9B10292A08A200773F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19ED9B15292A08A200773F09 /* Cart-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cart-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19ED9B19292A08A200773F09 /* Cart_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart_AppTests.swift; sourceTree = "<group>"; };
-		19ED9B1F292A08A200773F09 /* Cart-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cart-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19ED9B23292A08A200773F09 /* Cart_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart_AppUITests.swift; sourceTree = "<group>"; };
-		19ED9B25292A08A200773F09 /* Cart_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19ED9B35292A0E8C00773F09 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		19ED9B36292A0E8C00773F09 /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		19ED9B44292AAE5300773F09 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		19ED9B47292AAFEA00773F09 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		19ED9B48292AAFEA00773F09 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		19ED9B4B292AB03000773F09 /* UITableViewCell+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ex.swift"; sourceTree = "<group>"; };
+		19ED9B4D292AB0F500773F09 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		19ED9B4F292AB90800773F09 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		19ED9B51292ABBFA00773F09 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		19ED9B53292ABC1400773F09 /* Destinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destinations.swift; sourceTree = "<group>"; };
+		19ED9B55292AC43600773F09 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		19ED9B56292AC43600773F09 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		19ED9B59292AC4A400773F09 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		19ED9B5B292AC52200773F09 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		19ED9B5E292ACD8200773F09 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		19ED9B5F292ACD8200773F09 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
+		19ED9B63292AF20000773F09 /* UserDefaultsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsConstants.swift; sourceTree = "<group>"; };
+		2D979E22D8570C08E7C30F8F /* Pods-Cart-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart-App.debug.xcconfig"; path = "Target Support Files/Pods-Cart-App/Pods-Cart-App.debug.xcconfig"; sourceTree = "<group>"; };
+		2E13C9810F68421F20993BE9 /* Pods_Cart_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		878920E27BB51361CE2905D2 /* Pods-Cart-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart-App.release.xcconfig"; path = "Target Support Files/Pods-Cart-App/Pods-Cart-App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B12292A08A200773F09 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B1C292A08A200773F09 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				93A3F4DD74466B49A983AB21 /* Pods_Cart_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				19ED9B01292A089E00773F09 /* Cart-App */,
-				19ED9B18292A08A200773F09 /* Cart-AppTests */,
-				19ED9B22292A08A200773F09 /* Cart-AppUITests */,
 				19ED9B00292A089E00773F09 /* Products */,
+				4B15BA3E627008D9A8405D7E /* Pods */,
+				6F470CA4708607CEA3029EE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				19ED9AFF292A089E00773F09 /* Cart-App.app */,
-				19ED9B15292A08A200773F09 /* Cart-AppTests.xctest */,
-				19ED9B1F292A08A200773F09 /* Cart-AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +91,182 @@
 		19ED9B01292A089E00773F09 /* Cart-App */ = {
 			isa = PBXGroup;
 			children = (
-				19ED9B02292A089E00773F09 /* AppDelegate.swift */,
-				19ED9B04292A089E00773F09 /* SceneDelegate.swift */,
-				19ED9B06292A089E00773F09 /* ViewController.swift */,
-				19ED9B08292A089E00773F09 /* Main.storyboard */,
-				19ED9B0B292A08A200773F09 /* Assets.xcassets */,
-				19ED9B0D292A08A200773F09 /* LaunchScreen.storyboard */,
-				19ED9B10292A08A200773F09 /* Info.plist */,
+				19ED9B32292A0D7600773F09 /* AppDelegate */,
+				19ED9B34292A0E6900773F09 /* Scenes */,
+				19ED9B33292A0E5F00773F09 /* Modules */,
+				19ED9B3D292A5FE300773F09 /* Utilities */,
 			);
 			path = "Cart-App";
 			sourceTree = "<group>";
 		};
-		19ED9B18292A08A200773F09 /* Cart-AppTests */ = {
+		19ED9B32292A0D7600773F09 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				19ED9B19292A08A200773F09 /* Cart_AppTests.swift */,
+				19ED9B02292A089E00773F09 /* AppDelegate.swift */,
 			);
-			path = "Cart-AppTests";
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		19ED9B22292A08A200773F09 /* Cart-AppUITests */ = {
+		19ED9B33292A0E5F00773F09 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				19ED9B23292A08A200773F09 /* Cart_AppUITests.swift */,
-				19ED9B25292A08A200773F09 /* Cart_AppUITestsLaunchTests.swift */,
+				19ED9B43292A603300773F09 /* Extensions */,
+				19ED9B42292A602C00773F09 /* Navigation */,
+				19ED9B5D292AC52500773F09 /* Helper */,
 			);
-			path = "Cart-AppUITests";
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		19ED9B34292A0E6900773F09 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B3E292A600200773F09 /* Cart */,
+				19ED9B39292A176D00773F09 /* Products */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		19ED9B39292A176D00773F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B3C292A179600773F09 /* Model */,
+				19ED9B3A292A178100773F09 /* View */,
+				19ED9B3B292A178D00773F09 /* ViewModel */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		19ED9B3A292A178100773F09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B46292AAFC400773F09 /* Cell */,
+				19ED9B35292A0E8C00773F09 /* ProductsViewController.swift */,
+				19ED9B36292A0E8C00773F09 /* ProductsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19ED9B3B292A178D00773F09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B44292AAE5300773F09 /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19ED9B3C292A179600773F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B4D292AB0F500773F09 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19ED9B3D292A5FE300773F09 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B0B292A08A200773F09 /* Assets.xcassets */,
+				19ED9B0D292A08A200773F09 /* LaunchScreen.storyboard */,
+				19ED9B10292A08A200773F09 /* Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		19ED9B3E292A600200773F09 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B40292A600C00773F09 /* Model */,
+				19ED9B3F292A600700773F09 /* View */,
+				19ED9B41292A601300773F09 /* ViewModel */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		19ED9B3F292A600700773F09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B55292AC43600773F09 /* CartViewController.swift */,
+				19ED9B56292AC43600773F09 /* CartViewController.xib */,
+				19ED9B62292ACD8800773F09 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19ED9B40292A600C00773F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19ED9B41292A601300773F09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B59292AC4A400773F09 /* CartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19ED9B42292A602C00773F09 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B51292ABBFA00773F09 /* Navigator.swift */,
+				19ED9B53292ABC1400773F09 /* Destinations.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		19ED9B43292A603300773F09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B4F292AB90800773F09 /* ShadowView.swift */,
+				19ED9B4B292AB03000773F09 /* UITableViewCell+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19ED9B46292AAFC400773F09 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B47292AAFEA00773F09 /* ProductCell.swift */,
+				19ED9B48292AAFEA00773F09 /* ProductCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19ED9B5D292AC52500773F09 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B5B292AC52200773F09 /* DBHelper.swift */,
+				19ED9B63292AF20000773F09 /* UserDefaultsConstants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		19ED9B62292ACD8800773F09 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19ED9B5E292ACD8200773F09 /* CartCell.swift */,
+				19ED9B5F292ACD8200773F09 /* CartCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4B15BA3E627008D9A8405D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D979E22D8570C08E7C30F8F /* Pods-Cart-App.debug.xcconfig */,
+				878920E27BB51361CE2905D2 /* Pods-Cart-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F470CA4708607CEA3029EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E13C9810F68421F20993BE9 /* Pods_Cart_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19ED9B29292A08A200773F09 /* Build configuration list for PBXNativeTarget "Cart-App" */;
 			buildPhases = (
+				82FD8C08838EE7D23EC6F161 /* [CP] Check Pods Manifest.lock */,
 				19ED9AFB292A089E00773F09 /* Sources */,
 				19ED9AFC292A089E00773F09 /* Frameworks */,
 				19ED9AFD292A089E00773F09 /* Resources */,
+				1C36F7ED0FB3FC670F5F04DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,42 +290,6 @@
 			productName = "Cart-App";
 			productReference = 19ED9AFF292A089E00773F09 /* Cart-App.app */;
 			productType = "com.apple.product-type.application";
-		};
-		19ED9B14292A08A200773F09 /* Cart-AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19ED9B2C292A08A200773F09 /* Build configuration list for PBXNativeTarget "Cart-AppTests" */;
-			buildPhases = (
-				19ED9B11292A08A200773F09 /* Sources */,
-				19ED9B12292A08A200773F09 /* Frameworks */,
-				19ED9B13292A08A200773F09 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				19ED9B17292A08A200773F09 /* PBXTargetDependency */,
-			);
-			name = "Cart-AppTests";
-			productName = "Cart-AppTests";
-			productReference = 19ED9B15292A08A200773F09 /* Cart-AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		19ED9B1E292A08A200773F09 /* Cart-AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19ED9B2F292A08A200773F09 /* Build configuration list for PBXNativeTarget "Cart-AppUITests" */;
-			buildPhases = (
-				19ED9B1B292A08A200773F09 /* Sources */,
-				19ED9B1C292A08A200773F09 /* Frameworks */,
-				19ED9B1D292A08A200773F09 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				19ED9B21292A08A200773F09 /* PBXTargetDependency */,
-			);
-			name = "Cart-AppUITests";
-			productName = "Cart-AppUITests";
-			productReference = 19ED9B1F292A08A200773F09 /* Cart-AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,14 +303,6 @@
 				TargetAttributes = {
 					19ED9AFE292A089E00773F09 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					19ED9B14292A08A200773F09 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 19ED9AFE292A089E00773F09;
-					};
-					19ED9B1E292A08A200773F09 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 19ED9AFE292A089E00773F09;
 					};
 				};
 			};
@@ -220,8 +320,6 @@
 			projectRoot = "";
 			targets = (
 				19ED9AFE292A089E00773F09 /* Cart-App */,
-				19ED9B14292A08A200773F09 /* Cart-AppTests */,
-				19ED9B1E292A08A200773F09 /* Cart-AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,79 +330,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				19ED9B0F292A08A200773F09 /* LaunchScreen.storyboard in Resources */,
+				19ED9B4A292AAFEA00773F09 /* ProductCell.xib in Resources */,
 				19ED9B0C292A08A200773F09 /* Assets.xcassets in Resources */,
-				19ED9B0A292A089E00773F09 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B13292A08A200773F09 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B1D292A08A200773F09 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				19ED9B61292ACD8200773F09 /* CartCell.xib in Resources */,
+				19ED9B58292AC43600773F09 /* CartViewController.xib in Resources */,
+				19ED9B38292A0E8C00773F09 /* ProductsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C36F7ED0FB3FC670F5F04DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cart-App/Pods-Cart-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cart-App/Pods-Cart-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cart-App/Pods-Cart-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FD8C08838EE7D23EC6F161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cart-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19ED9AFB292A089E00773F09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19ED9B07292A089E00773F09 /* ViewController.swift in Sources */,
+				19ED9B45292AAE5400773F09 /* ProductsViewModel.swift in Sources */,
+				19ED9B54292ABC1400773F09 /* Destinations.swift in Sources */,
+				19ED9B57292AC43600773F09 /* CartViewController.swift in Sources */,
+				19ED9B4E292AB0F500773F09 /* ProductModel.swift in Sources */,
+				19ED9B49292AAFEA00773F09 /* ProductCell.swift in Sources */,
+				19ED9B37292A0E8C00773F09 /* ProductsViewController.swift in Sources */,
+				19ED9B60292ACD8200773F09 /* CartCell.swift in Sources */,
 				19ED9B03292A089E00773F09 /* AppDelegate.swift in Sources */,
-				19ED9B05292A089E00773F09 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B11292A08A200773F09 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19ED9B1A292A08A200773F09 /* Cart_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19ED9B1B292A08A200773F09 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19ED9B26292A08A200773F09 /* Cart_AppUITestsLaunchTests.swift in Sources */,
-				19ED9B24292A08A200773F09 /* Cart_AppUITests.swift in Sources */,
+				19ED9B64292AF20100773F09 /* UserDefaultsConstants.swift in Sources */,
+				19ED9B5C292AC52200773F09 /* DBHelper.swift in Sources */,
+				19ED9B52292ABBFA00773F09 /* Navigator.swift in Sources */,
+				19ED9B4C292AB03000773F09 /* UITableViewCell+Ex.swift in Sources */,
+				19ED9B50292AB90800773F09 /* ShadowView.swift in Sources */,
+				19ED9B5A292AC4A400773F09 /* CartViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		19ED9B17292A08A200773F09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 19ED9AFE292A089E00773F09 /* Cart-App */;
-			targetProxy = 19ED9B16292A08A200773F09 /* PBXContainerItemProxy */;
-		};
-		19ED9B21292A08A200773F09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 19ED9AFE292A089E00773F09 /* Cart-App */;
-			targetProxy = 19ED9B20292A08A200773F09 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		19ED9B08292A089E00773F09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19ED9B09292A089E00773F09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19ED9B0D292A08A200773F09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +536,7 @@
 		};
 		19ED9B2A292A08A200773F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D979E22D8570C08E7C30F8F /* Pods-Cart-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,10 +544,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76P85BXFRK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Cart-App/Info.plist";
+				INFOPLIST_FILE = "Cart-App/Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,12 +558,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		19ED9B2B292A08A200773F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878920E27BB51361CE2905D2 /* Pods-Cart-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,10 +572,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76P85BXFRK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Cart-App/Info.plist";
+				INFOPLIST_FILE = "Cart-App/Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,83 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		19ED9B2D292A08A200773F09 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 76P85BXFRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Cart-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cart-App.app/Cart-App";
-			};
-			name = Debug;
-		};
-		19ED9B2E292A08A200773F09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 76P85BXFRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Cart-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cart-App.app/Cart-App";
-			};
-			name = Release;
-		};
-		19ED9B30292A08A200773F09 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 76P85BXFRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Cart-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Cart-App";
-			};
-			name = Debug;
-		};
-		19ED9B31292A08A200773F09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 76P85BXFRK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Cart-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Cart-App";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -581,24 +607,6 @@
 			buildConfigurations = (
 				19ED9B2A292A08A200773F09 /* Debug */,
 				19ED9B2B292A08A200773F09 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		19ED9B2C292A08A200773F09 /* Build configuration list for PBXNativeTarget "Cart-AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19ED9B2D292A08A200773F09 /* Debug */,
-				19ED9B2E292A08A200773F09 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		19ED9B2F292A08A200773F09 /* Build configuration list for PBXNativeTarget "Cart-AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19ED9B30292A08A200773F09 /* Debug */,
-				19ED9B31292A08A200773F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
