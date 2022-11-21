@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 protocol ProductsViewModelProtocol {
-    var items : PublishSubject<[ProductModel]> { get }
+    var items : PublishSubject<[ProductModel]> { get set }
     var cellHeight : CGFloat { get }
     var productArray : [ProductModel] { get set }
     func fetchProductList()
@@ -73,8 +73,6 @@ class ProductsViewModel: ProductsViewModelProtocol {
     }
     
     func setInitialDateForCart(){
-        if !DBHelper().isExist() {
-            UserDefaultsConstants.initialDate = Date.now
-        }
+        UserDefaultsConstants.initialDate = Date.now
     }
 }

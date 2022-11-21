@@ -38,11 +38,4 @@ class DBHelper{
         try? Disk.clear(.documents)
     }
     
-    func isExist()->Bool{
-        if Disk.exists(PRODUCT_DATA, in: .documents) {
-            return true
-        }
-        return false
-    }
-    
 }

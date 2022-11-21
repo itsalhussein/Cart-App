@@ -34,7 +34,9 @@ class CartViewModel : CartViewModelProtocol {
     }
     func checkCartDuration(){
         
-        let dateAfterThreeDays = UserDefaultsConstants.initialDate.addingTimeInterval(259200)
+        let oldDate = UserDefaultsConstants.initialDate
+        
+        let dateAfterThreeDays = oldDate.addingTimeInterval(259200)
         let todayDate = Date.now
 
         if todayDate >= dateAfterThreeDays {
